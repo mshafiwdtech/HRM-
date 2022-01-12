@@ -1,0 +1,13 @@
+.form_item_leads{
+    min-width: 50%;
+    max-width: 50%;
+    margin-top: 2px;
+}
+
+
+@media screen and (max-width: 634px) {
+    .form_item_leads{
+        min-width: 100%;
+        max-width: 100%;
+    }
+  }

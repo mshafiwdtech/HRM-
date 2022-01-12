@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.Container {
+  /* margin: 1px; */
+  background-color: white;
+  border-width: thick;
+}
+
+.right-box {
+  margin-top: -30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.filter-box {
+  width: 500px;
+}
+
+.reset-filter {
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #3f50b5;
+  cursor: pointer;
+  display: inline-flex;
+}
+.leadHeading {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+.leadheadingBorder {
+  padding: 15px;
+
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+}
+.leadDetailContainer {
+  border-width: thin;
+  border-style: solid;
+  border-color: lightgray;
+}
+.totalleads {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.totalValue {
+  color: #3fb5ab;
+  font-weight: 800 !important;
+  font-weight: bold;
+}
+.totalText {
+  font-size: 25px;
+  padding-top: 30px;
+  /* font-weight: bold; */
+}
+.leadsBottomBorder {
+  display: flex;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+}
+
+.login {
+  /* flex: 1; */
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.loginContainer {
+  border-width: 2px;
+  border-style: solid;
+  border-color: lightgray;
+  width: 450px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 20px;
+  background-color: #3f50b5;
+}
+.loginButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  text-align: center;
+}
+.adduserButton {
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+}
+.login-wrap {
+  width: 100%;
+  margin: 10% auto;
+  width: 510px;
+  min-height: 510px;
+  border-radius: 10px;
+  position: relative;
+  background: url(https://maxcdn.icons8.com/app/uploads/2016/03/material-1-1000x563.jpg)
+    no-repeat center;
+  background-size: cover;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  /* top:50%;
+  margin-top:-205px; */
+  max-width: 90vw;
+ 
+}
+
+.login-html {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0px 1rem;
+}
+.login-form {
+  min-height: 345px;
+  position: relative;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.login-form .group {
+  margin-bottom: 15px;
+}
+.loginInput {
+  border-radius: 25px;
+  border: 2px solid;
+}
+
+#email::placeholder {
+  color: rgb(92, 90, 90);
+  opacity: 1;
+  padding-left: 20px;
+}
+input:focus {
+  outline: none;
+}
+#password::placeholder {
+  color: rgb(92, 90, 90);
+  opacity: 1;
+  padding-left: 20px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+
+  margin: .5rem .5rem !important;
+  font-size: .95rem;
+}
+
+.Mui-selected{
+  outline: 0 !important;
+}
+
+.MuiIconButton-root:focus{
+
+  outline: 0px !important;
+  border: 0px !important;
+
+}

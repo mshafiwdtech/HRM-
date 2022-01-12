@@ -1,0 +1,122 @@
+.responsive-drawer{
+
+    display: none !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 99;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding:.8rem 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+   
+}
+
+.responsive-drawer ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+}
+
+.responsive-drawer ul li{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.responsive-drawer-link{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #757575;
+    text-decoration: none !important;
+ 
+}
+
+.responsive-drawer-link :hover{
+
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  /* Mobile.................................. */
+
+  .dash-drawer-container{
+    display: none;
+  }
+
+  .drawer-open-btn{
+    display:none !important;
+}
+
+.responsive-drawer{
+
+    display: flex !important
+}
+
+.responsive-header-tittle{
+  font-size: 15px !important;
+}
+
+
+      
+
+  }
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 992px){
+  /* Tablet.................................. */
+
+  .dash-drawer-container{
+    display: none;
+  }
+
+  .drawer-open-btn{
+    
+    display:none !important;
+  }
+
+  .responsive-drawer{
+
+    display: flex !important; 
+}
+
+
+   
+  }
+  
+  
+  @media only screen and (min-width: 1008px) {
+  
+
+
+  
+  }
+  
+    

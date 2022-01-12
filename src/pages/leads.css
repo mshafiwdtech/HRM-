@@ -1,0 +1,51 @@
+
+.normal-data-leads{
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive-data-leads{
+
+    width: 100%;
+    display: none;
+   
+
+}
+
+
+
+
+    @media only screen and (max-width: 767px) 
+    {
+        /* Mobile.................................. */
+
+        .normal-data-leads{
+            display: none;
+        }
+    
+
+        .responsive-data-leads{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 0px;
+            width: 100%;
+            background-color: blue;
+
+        
+        }
+        
+    
+    }
+    
+    
+    @media only screen and (min-width: 768px) and (max-width: 992px){
+    /* Tablet.................................. */
+  
+     
+    }
+    
+  
+    
+      

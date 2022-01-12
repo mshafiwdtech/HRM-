@@ -1,0 +1,8 @@
+{
+  "development": {
+    "baseUrl": "https://crm.epitomeprojects.in"
+  },
+  "production": {
+    "baseUrl": "https://crm.epitomeprojects.in"
+  }
+}

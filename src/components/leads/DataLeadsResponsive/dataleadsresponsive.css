@@ -1,0 +1,159 @@
+.dataleads-responsive-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: red;
+    min-width: 97vw;
+  
+    
+}
+
+.data-leads-filter-container{
+    background-color: white;
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.data-leads-table-container{
+    background-color: white;
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.res-table-card-container{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.res-table-card-container:hover{
+
+    
+    outline: 1.5px solid rgba(0, 0, 139, 0.808);
+   
+}
+.res-table-card-name{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.res-table-card-time{
+    font-size: 13px;
+    color: rgb(136, 136, 136);
+    margin-top: 5px;
+}
+
+.res-table-card-executive{
+    font-size: 13px;
+    font-weight: 500;
+    color: #3F51B5;
+
+    margin-top: 3px;
+}
+
+.res-table-card-avatar{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: darkblue;
+   height: 55px;
+   width: 55px;
+    border-radius: 100px;
+    text-align: center;
+    vertical-align: middle;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    text-transform: uppercase;
+}
+
+.booked-badge-responsive{
+    border-radius: 5px;
+    background-color:#06D79C ;
+    padding: 4px 10px;
+    color: white;
+    font-size: 12px;
+    margin-top: 8px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.res-table-card-btn-container button:first-child {
+
+    border-right: .5px solid rgb(212, 212, 212);
+    
+}
+
+.res-table-card-btn{
+    width: 50%;
+    padding: 8px;
+    border: 0;
+    border-top: .5px solid rgb(212, 212, 212);
+    outline: 0;
+    background-color: #F2FBFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:#09364D;
+    font-weight: bolder;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.res-table-card-btn:focus{
+    outline: 0;
+}
+
+
+
